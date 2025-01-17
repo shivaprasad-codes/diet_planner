@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Lato:ital,wght@1,700&family=Work+Sans:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+     
+    background-color: #5C8374;
+    display: grid;
+    align-items: center;
+}
+
+
+.maindiv
+{
+    background-image: url(dumbbels.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65vw;
+    height: 82vh;
+    border: 4px solid black;
+    position: relative;
+    left: 17%;
+    top: 36px;
+}
+
+table
+{
+    position: relative;
+    height: 46vh;
+    width: 22vw;
+    border-radius: 5px;
+    left: 30vw;
+    margin: 105px;
+}
+
+.submit
+{
+    position: relative;
+    left: 180px;
+    height: 100px;
+    width: 30px;
+}
+
+ .height
+ {
+    color: white;
+    font-family: 'Lato', sans-serif;
+ }
+
+ .weight
+ {
+    color: white;
+    font-family: 'Lato', sans-serif;
+ }
+
+ form
+ {
+    position: relative;
+    font-size: 25px;
+    left: -215px;
+ }
+ 

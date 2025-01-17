@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="signup_style.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <script>
+        let validate=()=>{
+            var mail=document.getElementById("email").value;
+            var res=/[a-z A-Z 0-9]+@[a-z A-Z]+\.[a-z A-Z]+/;
+            
+            if(!(res.test(mail))){
+                document.getElementById("demo").innerHTML="*Inavlid";
+                document.getElementById("demo").style.color="red";
+            }
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="DbInsert.php">
+        <table>
+            <tr class="heading">
+                <td><h1>Sign-up</h1></td>
+             </tr>
+            <tr class="email">
+                <td>e-mail:</td>
+                <td><input type="text" name="email" id="email" placeholder="Enter Email" onblur="validate()" requiredS></td>
+                <td><p id="demo"></p></td>
+            </tr>
+            <tr class="username">
+                <td>Username:</td>
+                <td><input type="text" name="username" placeholder="Enter Username" required></td>
+            </tr>
+            <tr class="pwd">
+                <td>Password:</td>
+                <td><input type="password" name="pwd" placeholder="Enter Password" required></td>
+            </tr>
+            <tr class="age">
+                <td>Age:</td>
+                <td><input type="number" name="age" min="1" max="100"></td>
+            </tr>
+            <tr class="height">
+                <td>Height:</td>
+                <td><input type="number" name="height" placeholder="Enter your height(in cm)" required></td>
+            </tr>
+            <tr class="gender">
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female</td>
+            </tr>
+            <tr class="submit">
+                <td><input type="submit"></td>
+            </tr>
+
+        </table>
+    </form>
+    
+</body>
+</html>

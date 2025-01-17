@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Lato:ital,wght@1,700&family=Work+Sans:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("dumbbels1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: img_roll 20s linear infinite;
+    
+}
+
+@keyframes img_roll {
+    0%{background-image: url("dumbbels1.avif");}
+    50%{background-image: url("dumbbels.avif");}
+    75%{background-image: url("barbell1.jpg");}
+    
+}
+
+table
+{
+   position: relative;
+   height: 385px;
+   width: 26vw;
+    font-weight: 100;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 139px;
+    background-color: white;
+    color: white;
+    left: 14px;
+    padding: 25px;
+    background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.heading
+{
+    position: relative;
+    left: 98px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.submit
+{
+    position: relative;
+    left: 130px;
+}
+
+ .username
+ {
+    font-family: 'Lato', sans-serif;
+ }
+
+ .pwd
+ {
+    font-family: 'Lato', sans-serif;
+ }
+
+ .sign-in
+ {
+    position: relative;
+    left: 209px;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+

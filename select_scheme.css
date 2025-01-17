@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+section
+{
+    display: flex;
+}
+
+.bulking
+{
+    background-image: url("bulking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:33%;
+    height: 100vh;
+    border: 2px solid black;
+
+}
+
+.bulking:hover{
+    border: 10px solid white;
+}
+
+.cutting
+{
+    background-image: url("cutting.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:33%;
+    height: 100vh;
+    border: 2px solid black;
+
+}
+
+.cutting:hover{
+    border: 10px solid white;
+}
+
+.fatloss
+{
+    background-image: url("fatloss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:33%;
+    height: 100vh;
+    border: 2px solid black;
+
+}
+
+.fatloss:hover{
+    border: 10px solid white;
+}
+
+.bulking .content
+{ 
+    width: 178px;
+    height: 100px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 50vh;
+    left: 159px;
+    font-size: 44px;
+}
+
+.bulking .content:hover
+{ 
+    font-size: 64px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.cutting .content
+{ 
+    width: 178px;
+    height: 100px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 50vh;
+    left: 159px;
+    font-size: 44px;
+}
+
+.cutting .content:hover
+{ 
+    font-size: 64px;
+}
+
+.fatloss .content
+{ 
+    width: 231px;
+    height: 100px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: 50vh;
+    left: 159px;
+    font-size: 44px;
+}
+
+.fatloss .content:hover
+{ 
+    font-size: 64px;
+}
+

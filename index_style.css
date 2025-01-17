@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=IBM+Plex+Sans:ital@1&family=Lato:ital,wght@1,700&family=Work+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    font-family: 'Heebo', sans-serif;
+    font-size: 38px;
+    background-color: #5C8374;
+}
+
+nav ul{
+    height: 122px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    height: 90vh;
+    background-color:rgba(27, 31, 34, 0.85); 
+}
+
+.maindiv{
+    width: 70%;
+    height: 370px;
+    position: relative;
+    left: 308px;
+    top: 150px;
+    background-image: url("index_bg3.jpg");
+    background-size:100% 100%;
+    transform: translate(-50px,-50px);
+    box-shadow: 1px 2px 10px 4px white;
+    animation: slider 20s infinite linear;
+}
+
+.text
+{
+    position: relative;
+    top: 42px;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+h2
+{
+    font-family: 'Noto Sans', sans-serif;
+    position: relative;
+    left: -108px;
+    font-size: 60px;
+    color: black;
+    -webkit-text-stroke: 0.3vw black;
+    text-transform: uppercase; 
+    
+}
+
+h2::before
+{
+    font-family: 'Noto Sans', sans-serif;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 368px;
+    width: 0;
+    height: 100%;
+    color: black;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate{
+   0%,10%,100%
+   {
+      width: 0;
+   } 
+   70%,90%
+   {
+      width: 100%;
+   } 
+}
+
+@keyframes slider {
+     0%{ background-image: url("index_bg3.jpg");}
+     25%{ background-image: url("index_bg1.jpg");}
+     50%{ background-image: url("index_bg5.jpg");}
+     75%{background-image: url("index_bg2.jpg");}
+    
+}
+
+section .text .main_text
+{
+    font-size: 5px;
+}
+ 
+
+

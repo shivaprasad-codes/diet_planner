@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-Tracker</title>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="in_bmi.css">
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="content">
+            <form action="cal.php" method="post">
+                <table>
+                    <tr class="height">
+                        <td>Height:</td>
+                        <td><input type="number" name="height" placeholder="Enter your height(in cm)"
+                                style="height: 30px; width: 200px;" min="1" max="999" required></td>
+                    </tr>
+                    <tr class="weight">
+                        <td>weight:</td>
+                        <td><input type="number" name="weight" placeholder="Enter your weight(in kg)"
+                                style="height: 30px; width: 200px;" min="1" max="999" required></td>
+                    </tr>
+                    <tr class="submit">
+                        <td><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

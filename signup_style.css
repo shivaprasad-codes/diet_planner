@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Lato:ital,wght@1,700&family=Work+Sans:ital,wght@1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("signup_backimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+table
+{
+   position: relative;
+   height: 389px;
+   width: 374px;
+   font-weight: 100; 
+   border: 2px solid white;
+   border-radius: 5px;
+   left: 457px;
+   margin: 139px;
+}
+
+.heading
+{
+    position: relative;
+    left: 117px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.submit
+{
+    position: relative;
+    left: 130px;
+}
+
+ .username
+ {
+    font-family: 'Lato', sans-serif;
+    color: white;
+ }
+
+ .pwd
+ {
+    font-family: 'Lato', sans-serif;
+    color: white;
+ }
+
+ .email
+ {
+    font-family: 'Lato', sans-serif;
+    color: white;
+ }
+
+ .age
+ {
+    font-family: 'Lato', sans-serif;
+    color: white;
+ }
+
+ .height
+ {
+    font-family: 'Lato', sans-serif;
+    color: white;
+ }
+
+ .gender
+ {
+    font-family: 'Lato', sans-serif;
+    color: white;
+ }
